@@ -10,7 +10,7 @@
         <div style="margin-top: 40px">
           <h1 class="ff-dm-serif fs-36">Hi! 🙂</h1>
           <p style="margin-bottom: 10px">
-            My name is Chiamaka, a Product Designer and Software Developer,
+            My name is Chiamaka, a Product Designer and Software Engineer,
             interested in designing with data while providing value to users.
           </p>
           <p class="py-10">
