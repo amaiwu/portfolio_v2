@@ -1,0 +1,21 @@
+.p-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  width: 20px;
+  height: 20px;
+
+  &.pointy-arrow__right {
+    -webkit-mask: url("~assets/svg/pointy-arrow__right.svg") no-repeat center left;
+    mask: url("~assets/svg/pointy-arrow__right.svg") no-repeat center left;
+  }
+  &.pointy-arrow__left {
+    -webkit-mask: url("~assets/svg/pointy-arrow__left.svg") no-repeat center left;
+    mask: url("~assets/svg/pointy-arrow__left.svg") no-repeat center left;
+  }
+  &.pointy-arrow__slanted {
+    -webkit-mask: url("~assets/svg/pointy-arrow__slanted.svg") no-repeat center left;
+    mask: url("~assets/svg/pointy-arrow__slanted.svg") no-repeat center left;
+  }
+}
