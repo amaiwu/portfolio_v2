@@ -65,6 +65,9 @@ export default {
   styleResources: {
     scss: ["./assets/scss/main.scss"]
   },
+  googleAnalytics: {
+    id: "UA-160622134-1"
+  },
   /*
   ** Build configuration
   */
