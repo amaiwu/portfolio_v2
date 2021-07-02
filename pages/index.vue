@@ -52,7 +52,7 @@ export default {
       caseStudies: [
         {
           tags: "UX DESIGN & EXPERIENCE MAPPING",
-          title: `Improving user experience using experience mapping.`,
+          title: `Improving user web experience using experience mapping.`,
           previewText: ` My team and I identified a more impactful direction for our project with The Ontario Pops Orchestra, which led to a full website redesign.`,
           pageLink: `/improving-the-web-experience-with-experience-mapping`,
           thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1625180988/Portfolio_v2/Group_246_1_e2cxlz.svg`,
@@ -60,7 +60,7 @@ export default {
         },
         {
           tags: "UX DESIGN, DEVELOPMENT & A/B TESTING",
-          title: `Optimizing feeds for short content with comment previews.`,
+          title: `Optimizing feed for short content with comment previews.`,
           previewText: `During my internship at Quora, I worked as part of a cross-functional team tasked with making the Quora feed short-content friendly.`,
           pageLink: `/optimizing-for-short-content`,
           thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_800/v1625180980/Portfolio_v2/Group_247_gthloj.png`,
@@ -68,7 +68,7 @@ export default {
         },
         {
           tags: "UX DESIGN",
-          title: `Designing content feed for discoverability.`,
+          title: `Designing feed for discoverability.`,
           previewText: `How can we help users find relevant content without being
           overwhelming? I tried to solve this problem for a school project.`,
           pageLink: `/designing-feed-for-discoverability`,

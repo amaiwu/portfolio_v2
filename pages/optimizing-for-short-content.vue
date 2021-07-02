@@ -5,7 +5,7 @@
         <div class="grid-col-4">
           <p class="ff-small-caps">UX DESIGN, DEVELOPMENT & A/B TESTING</p>
           <h1 class="ff-dm-serif fs-48 py-10">
-            Optimizing feeds for <br />
+            Optimizing feed for <br />
             short content with <br />
             <em style="color: #be0713">comment previews</em>.
           </h1>
@@ -102,7 +102,7 @@
         <div class="container grid-row px-80">
           <div class="pt-200 pb-150 heading">
             <p class="ff-dm-serif fs-36 mb-10 fc-light-blue">
-              HMW collect signals pre-expand while providing value for users?
+              HMW collect signals for short-content while providing value for users?
             </p>
             <p class="py-10">
               Similar platforms often show a comment preview pre-expand,

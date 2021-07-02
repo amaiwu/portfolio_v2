@@ -5,7 +5,7 @@
         <div class="grid-col-4">
           <p class="ff-small-caps">UX DESIGN & EXPERIENCE MAPPING</p>
           <h1 class="ff-dm-serif fs-48 py-10">
-            Improving the web experience using<br />
+            Improving user web experience using<br />
             <em style="color: #800900">experience mapping</em>.
           </h1>
           <p>
@@ -78,7 +78,7 @@
           <h2 class="ff-small-caps">DISCOVERY</h2>
           <p class="ff-dm-serif fs-36 py-10">
             "We need a mobile app", was the initial proposal, but we learned
-            this will be least impactful...
+            this would be least impactful...
           </p>
           <p>
             To identify the problem, we met with the OPO founder & OPO marketer

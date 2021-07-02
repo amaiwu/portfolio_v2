@@ -5,8 +5,8 @@
       <div class="grid-col-4">
         <p class="ff-small-caps">UX DESIGN</p>
         <h1 class="ff-dm-serif fs-48 py-10">
-          Designing content feed for
-          <em style="color: #800900">discoverability</em>.
+          Designing feed for
+          <em style="color: #114638">discoverability</em>.
         </h1>
         <p>
           How can we help users find relevant content without being
