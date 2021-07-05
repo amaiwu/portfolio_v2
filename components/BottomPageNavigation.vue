@@ -46,7 +46,7 @@ export default {
   & a {
     flex: 0 0 100%;
 
-    @include tablet {
+    @include large-desktop {
       flex: 0 0 35%;
       flex-wrap: wrap;
     }
@@ -58,12 +58,12 @@ export default {
   order: -1;
 
   .ff-small-caps {
-    @include tablet {
+    @include large-desktop {
       justify-content: flex-end;
     }
   }
 
-  @include tablet {
+  @include large-desktop {
     order: 0;
     padding-bottom: 0px;
     text-align: right;

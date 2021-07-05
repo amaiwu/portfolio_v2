@@ -44,7 +44,7 @@ nav {
   box-shadow: 0px 4px 4px #efeff2;
   padding: 0 20px;
 
-  @include tablet {
+  @include large-desktop {
     padding: 0 80px;
   }
 }

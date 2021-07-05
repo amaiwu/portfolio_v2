@@ -24,18 +24,19 @@
             v-for="(caseStudy, i) in caseStudies"
             :key="i"
           >
-            <div>
+            <div class="px-80 py-80">
               <p class="ff-small-caps fs-14 mb-10">{{ caseStudy.tags }}</p>
               <h3 class="fs-24 ff-dm-serif" style="margin-bottom: 20px">
                 {{ caseStudy.title }}
               </h3>
-              <p>{{ caseStudy.previewText }}</p>
+              <p class="fs-16">{{ caseStudy.previewText }}</p>
             </div>
-            <figure>
+            <figure :style="caseStudy.imgBackgroundColor">
               <img
                 :src="caseStudy.thumbnailURL"
-                class="img-fluid br-10"
+                class="img-fluid"
                 :alt="caseStudy.thumbnailAltText"
+                style="height: 100%; object-fit: cover"
               />
             </figure>
           </nuxt-link>
@@ -51,29 +52,35 @@ export default {
     return {
       caseStudies: [
         {
-          tags: "UX DESIGN & EXPERIENCE MAPPING",
-          title: `Improving user web experience using experience mapping.`,
-          previewText: ` My team and I identified a more impactful direction for our project with The Ontario Pops Orchestra, which led to a full website redesign.`,
-          pageLink: `/improving-the-web-experience-with-experience-mapping`,
-          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1625180988/Portfolio_v2/Group_246_1_e2cxlz.svg`,
-          thumbnailAltText: `Thumbnail`,
-        },
-        {
           tags: "UX DESIGN, DEVELOPMENT & A/B TESTING",
           title: `Optimizing feed for short content with comment previews.`,
           previewText: `During my internship at Quora, I worked as part of a cross-functional team tasked with making the Quora feed short-content friendly.`,
-          pageLink: `/optimizing-for-short-content`,
-          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_800/v1625180980/Portfolio_v2/Group_247_gthloj.png`,
+          pageLink: `/optimizing-feed-for-short-content`,
+          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_2000/v1625180980/Portfolio_v2/Group_247_gthloj.png`,
           thumbnailAltText: `Thumbnail`,
+          imgBackgroundColor:
+            "background: linear-gradient(109.15deg, #1E487B 37.11%, #8E3642 99.61%)",
+        },
+        {
+          tags: "UX DESIGN & EXPERIENCE MAPPING",
+          title: `Aligning business and user goals with experience mapping.`,
+          previewText: ` My team and I identified a more impactful direction for our project with The Ontario Pops Orchestra, which led to a full website redesign.`,
+          pageLink: `/aligning-business-and-user-goals-with-experience-mapping`,
+          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1625445872/Portfolio_v2/Group_246_2_qkpeyc.svg`,
+          thumbnailAltText: `Thumbnail`,
+          imgBackgroundColor:
+            "background: linear-gradient(251.65deg, #1e487b 37.55%, #8e3642 98.5%)",
         },
         {
           tags: "UX DESIGN",
-          title: `Designing feed for discoverability.`,
+          title: `Designing for discoverability.`,
           previewText: `How can we help users find relevant content without being
           overwhelming? I tried to solve this problem for a school project.`,
-          pageLink: `/designing-feed-for-discoverability`,
-          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1625180985/Portfolio_v2/Group_248_2_t6pc05.svg`,
+          pageLink: `/designing-for-discoverability`,
+          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1625447079/Portfolio_v2/Group_248_otp1tp.png`,
           thumbnailAltText: `Thumbnail`,
+          imgBackgroundColor:
+            "background: linear-gradient(111.31deg, #124f3f 35.97%, #22538d 96.05%);",
         },
       ],
     };
@@ -114,9 +121,9 @@ nav {
   &__item {
     grid-column: 1 / 9;
     display: grid;
-    grid: auto-flow / repeat(auto-fit, minmax(240px, 1fr));
-    gap: 40px;
-    padding: var(--p-40) var(--p-20);
+    grid-template-columns: repeat(2, 1fr);
+
+    // padding: var(--p-40) var(--p-20);
 
     &:hover {
       background: var(--almost-white);
@@ -124,9 +131,34 @@ nav {
       transition: all 0.2s;
     }
 
-    @include tablet {
-      padding: var(--p-80);
+    & > * {
+      grid-column: span 2;
+
+      @include large-desktop {
+        grid-column: span 1;
+        // padding: var(--p-80);
+      }
     }
+  }
+}
+
+figure {
+  order: -1;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+
+  img {
+    border-radius: 20px 20px 0 0;
+
+    @include large-desktop {
+      border-radius: 0 20px 20px 0;
+    }
+  }
+
+  @include large-desktop {
+    border-radius: 0 20px 20px 0;
+    height: unset;
+    order: unset;
   }
 }
 </style>

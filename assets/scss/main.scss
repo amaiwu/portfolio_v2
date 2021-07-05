@@ -115,6 +115,9 @@ strong {
 .h-300 {
   height: 300px;
 }
+.w-100 {
+  width: 100%;
+}
 .p {
   &t-200 {
     padding-top: 200px;
@@ -203,12 +206,15 @@ strong {
     padding-left: 80px;
   }
   &r-80 {
-    padding-right: 80px;
+    padding-right: 20px;
+    @include desktop {
+      padding-right: 80px;
+    }
   }
   &x-80 {
     padding-right: 20px;
     padding-left: 20px;
-    @include tablet {
+    @include desktop {
       padding-right: 80px;
       padding-left: 80px;
     }
@@ -249,7 +255,7 @@ strong {
   &x-124 {
     padding-left: 20px;
     padding-right: 20px;
-    @include tablet {
+    @include desktop {
       padding-left: 124px;
       padding-right: 124px;
     }
@@ -425,21 +431,21 @@ strong {
   }
   &-24 {
     font-size: var(--fs-18);
-    @include tablet {
+    @include large-desktop {
       font-size: var(--fs-24);
     }
   }
   &-36 {
     font-size: var(--fs-24);
 
-    @include tablet {
+    @include large-desktop {
       font-size: var(--fs-36);
     }
   }
   &-48 {
     font-size: var(--fs-36);
 
-    @include tablet {
+    @include large-desktop {
       font-size: var(--fs-48);
     }
   }
@@ -468,41 +474,44 @@ strong {
   }
 
   &-col {
-    // &-2 {
-    //   grid: auto-flow / repeat(auto-fit, minmax(240px, 1fr));
-    // }
-    &-2 {
-      grid-column: 1/9;
+    grid-column: 1 /9;
 
-      @include tablet {
+    @include desktop {
+      grid-column: 2 / 8;
+    }
+
+    &-2 {
+      @extend .grid-col;
+
+      @include large-desktop {
         grid-column: span 2;
       }
     }
     &-4 {
-      grid-column: 1/9;
+      @extend .grid-col;
 
-      @include tablet {
+      @include large-desktop {
         grid-column: span 4;
       }
     }
     &-5 {
-      grid-column: 1/9;
+      @extend .grid-col;
 
-      @include tablet {
+      @include large-desktop {
         grid-column: span 5;
       }
     }
     &-6 {
-      grid-column: 1/9;
+      @extend .grid-col;
 
-      @include tablet {
+      @include large-desktop {
         grid-column: span 6;
       }
     }
     &-8 {
-      grid-column: 1/9;
+      @extend .grid-col;
 
-      @include tablet {
+      @include large-desktop {
         grid-column: span 8;
       }
     }
@@ -538,7 +547,7 @@ strong {
   &-margin {
     margin: 0 20px;
 
-    @include tablet {
+    @include desktop {
       margin: 0 80px;
     }
   }
@@ -563,7 +572,7 @@ ul:not(.list-unstyled) {
   &-1-col {
     @extend .flex;
     & > * {
-      @include tablet {
+      @include large-desktop {
         flex: 0 0 100%;
         max-width: 100%;
       }
@@ -572,7 +581,7 @@ ul:not(.list-unstyled) {
   &-2-col {
     @extend .flex;
     & > * {
-      @include tablet {
+      @include large-desktop {
         flex: 0 0 calc(50% - 80px);
         max-width: calc(50% - 80px);
       }
@@ -581,12 +590,15 @@ ul:not(.list-unstyled) {
   &-3-col {
     @extend .flex;
     & > * {
-      @include tablet {
+      @include large-desktop {
         flex: 0 0 calc((100% - 80px) / 3);
         max-width: calc((100% - 80px) / 3);
       }
     }
   }
+}
+.no-wrap {
+  flex-wrap: nowrap !important;
 }
 
 .d-block {
@@ -647,7 +659,7 @@ body {
   background-image: url("https://res.cloudinary.com/drsp4xifi/image/upload/v1624894609/Portfolio_v2/About/Noise-bg_ivtv0l.svg");
   height: 100%;
 
-  @include tablet {
+  @include large-desktop {
     font-size: var(--fs-18);
   }
 }

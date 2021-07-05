@@ -5,7 +5,7 @@
         <div class="grid-col-4">
           <p class="ff-small-caps">UX DESIGN & EXPERIENCE MAPPING</p>
           <h1 class="ff-dm-serif fs-48 py-10">
-            Improving user web experience using<br />
+            Aligning business and user goals with 
             <em style="color: #800900">experience mapping</em>.
           </h1>
           <p>
@@ -17,12 +17,20 @@
       </section>
     </div>
 
-    <section>
-      <img
-        src="https://res.cloudinary.com/drsp4xifi/image/upload/v1625180988/Portfolio_v2/Group_246_1_e2cxlz.svg"
-        class="img-fluid"
-        alt=""
-      />
+    <section
+      style="
+        background: linear-gradient(251.65deg, #1e487b 37.55%, #8e3642 98.5%);
+        height: 400px;
+      "
+    >
+      <div class="wrapper">
+        <img
+          src="https://res.cloudinary.com/drsp4xifi/image/upload/v1625445872/Portfolio_v2/Group_246_2_qkpeyc.svg"
+          class="w-100"
+          style="object-fit: cover"
+          height="400px"
+        />
+      </div>
     </section>
     <div class="wrapper">
       <section
@@ -51,7 +59,7 @@
     </div>
     <div class="wrapper">
       <section id="opo-gif" class="center-box-content">
-        <figure class="d-inline-block">
+        <figure class="d-inline-block text-center">
           <video
             src="https://res.cloudinary.com/drsp4xifi/video/upload/v1625148306/Portfolio_v2/OPO/Screen_Recording_2021-06-28_at_10.12.22_AM_ywysqt.mov"
             autoplay
@@ -410,10 +418,10 @@
     </div>
 
     <bottom-page-navigation
-      nextLinkText="Optimizing users’ feeds for short content with comment previews."
-      nextLinkURL="/optimizing-for-short-content"
-      previousLinkText="Home"
-      previousLinkURL="/"
+      nextLinkText="Designing for discoverability."
+      nextLinkURL="/designing-for-discoverability"
+      previousLinkText="Optimizing feed for short content with comment previews."
+      previousLinkURL="/optimizing-feed-for-short-content"
     />
   </main>
 </template>
@@ -431,7 +439,10 @@ export default {
   & > div {
     grid-column: 1/9;
 
-    @include tablet {
+    @include desktop {
+      grid-column: 2/8;
+    }
+    @include large-desktop {
       grid-column: 3/7;
     }
   }
@@ -443,7 +454,11 @@ export default {
   & > div {
     grid-column: 1/9;
 
-    @include tablet {
+    @include desktop {
+      grid-column: 2/8;
+      padding-right: 80px;
+    }
+    @include large-desktop {
       grid-column: 2/6;
       padding-right: 80px;
     }
@@ -456,7 +471,7 @@ export default {
   }
   .macbook-pro {
     width: 80%;
-    @include tablet {
+    @include large-desktop {
       width: unset;
       height: 600px;
     }
@@ -465,10 +480,14 @@ export default {
   .gif {
     position: absolute;
     height: auto;
-    top: 21px;
+    top: 13px;
     width: 61%;
-    left: 67px;
-    @include tablet {
+    left: 81px;
+    @include desktop {
+      top: 30px;
+      left: 200px;
+    }
+    @include large-desktop {
       top: 30px;
       left: 95px;
       width: 76%;
@@ -480,7 +499,7 @@ export default {
   .heading {
     grid-column: 1/9;
 
-    @include tablet {
+    @include desktop {
       grid-column: 2/8;
     }
   }
@@ -498,7 +517,7 @@ export default {
       padding: 40px;
       width: 100%;
 
-      @include tablet {
+      @include large-desktop {
         flex: 0 0 calc(50% - 40px);
       }
     }
@@ -521,7 +540,7 @@ export default {
       & > div:first-child {
         grid-column: 1/9;
 
-        @include tablet {
+        @include desktop {
           grid-column: 2/8;
         }
       }
@@ -537,7 +556,7 @@ export default {
 
 .pointer {
   display: none;
-  @include tablet {
+  @include large-desktop {
     display: inline-block;
 
     position: absolute;

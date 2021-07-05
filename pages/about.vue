@@ -47,9 +47,9 @@
         <div>
           <h2 class="ff-small-caps">Currently Reading</h2>
           <ul class="py-20 pl-15">
-            <li>Papers on data governance and ML explainability (for school assignments)</li>
-            <li>Thinking with Type <em>by Ellen Lupton</em></li>
-            <li>Animal Farm <em>by George Orwell</em></li>
+            <li>Papers on data governance and ML explainability.</li>
+            <li>Thinking with Type <em>by Ellen Lupton</em>.</li>
+            <li>Animal Farm <em>by George Orwell</em>.</li>
           </ul>
         </div>
       </section>
@@ -77,10 +77,10 @@ export default {};
 section {
   grid-column: 1 / 9;
 
-  @include tablet {
+  @include large-desktop {
     grid-column: 2 / 7;
   }
-  @include desktop {
+  @include large-desktop {
     grid-column: 2 / 6;
   }
 }

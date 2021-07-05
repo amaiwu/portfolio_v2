@@ -18,12 +18,20 @@
       </section>
     </div>
 
-    <section>
-      <img
-        src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_1440/v1625180980/Portfolio_v2/Group_247_gthloj.png"
-        class="img-fluid"
-        alt=""
-      />
+    <section
+      style="
+        background: linear-gradient(109.15deg, #1e487b 37.11%, #8e3642 99.61%);
+        height: 400px;
+      "
+    >
+      <div class="wrapper">
+        <img
+          src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_4000/v1625446111/Portfolio_v2/Group_247_1_ft4o6x.png"
+          class="w-100"
+          style="object-fit: cover"
+          height="400px"
+        />
+      </div>
     </section>
     <div class="wrapper">
       <section
@@ -102,7 +110,8 @@
         <div class="container grid-row px-80">
           <div class="pt-200 pb-150 heading">
             <p class="ff-dm-serif fs-36 mb-10 fc-light-blue">
-              HMW collect signals for short-content while providing value for users?
+              HMW collect signals for short-content while providing value for
+              users?
             </p>
             <p class="py-10">
               Similar platforms often show a comment preview pre-expand,
@@ -119,12 +128,13 @@
           </div>
         </div>
         <div class="container grid-row">
-          <div class="container images d-flex flex-3-col px-124">
+          <div class="container images d-flex flex-3-col px-124 no-wrap">
             <figure class="">
               <img
                 src="https://res.cloudinary.com/drsp4xifi/image/upload/v1625133032/Portfolio_v2/Comment%20Preview/IMG_5750_1_1_z8mp6z.png"
                 alt="a photo showing comment previews on instagram"
                 class="img-fluid light-box-shadow"
+                height="400px"
               />
             </figure>
             <figure class="">
@@ -196,7 +206,7 @@
         id="testing"
         class="grid-margin fc-almost-white py-200 bold-bg-section"
       >
-        <div class="container grid-row pb-150">
+        <div class="container grid-row pb-100">
           <div class="px-20">
             <p class="ff-dm-serif fs-36">
               For A/B testing, I designed 3 comment preview variants...
@@ -214,7 +224,7 @@
         </div>
         <div class="container">
           <div class="d-flex px-124 flex-3-col">
-            <figure>
+            <figure class="pt-40">
               <p class="ff-small-caps mb-40 opacity-1">
                 DESIGN #1 - “ROUNDED BOX”
               </p>
@@ -230,7 +240,7 @@
                 </p>
               </figcaption>
             </figure>
-            <figure>
+            <figure class="pt-40">
               <p class="ff-small-caps mb-40 opacity-1">
                 DESIGN #2 - “CURRENT UI”
               </p>
@@ -246,7 +256,7 @@
                 </p>
               </figcaption>
             </figure>
-            <figure>
+            <figure class="pt-40">
               <p class="ff-small-caps mb-40 opacity-1">DESIGN #3 - “BUBBLE”</p>
               <img
                 src="https://res.cloudinary.com/drsp4xifi/image/upload/v1625133769/Portfolio_v2/Comment%20Preview/Image_17_jhwfwv.png"
@@ -274,14 +284,11 @@
           <p class="py-10">
             I built the variants in React, using colors and fonts from the Quora
             design system. Working with a data scientist, I set up the
-            experiment, identifying the relevant target metrics and negative
-            metrics, and determining the appropriate bucket-size for each
-            variant.
+            experiment, with the relevant target and negative metrics.
           </p>
           <p class="pb-10">
-            We wanted to iterate quickly and did not have resources at the time
-            to improve the ranking for comments. So I opted to use the first
-            comment in the comment list for the comment preview.
+            To iterate quickly, I opted to use the first comment in the comment
+            list for the comment preview.
           </p>
           <p class="fs-14">
             <em
@@ -295,7 +302,7 @@
 
     <section id="iteration1" class="py-200 bc-white bold-bg-section">
       <div class="wrapper">
-        <div class="container grid-row px-80 pb-100 ">
+        <div class="container grid-row px-80 pb-100">
           <div class="text-center px-20 heading">
             <p class="ff-dm-serif fs-36 mb-10 fc-light-blue">
               The bubble variant increased comment expands
@@ -393,10 +400,10 @@
     </div>
 
     <bottom-page-navigation
-      nextLinkText="Designing feed for discoverability."
-      nextLinkURL="/designing-feed-for-discoverability"
-      previousLinkText="Improving the web experience using experience mapping."
-      previousLinkURL="/improving-the-web-experience-with-experience-mapping"
+      nextLinkText="Aligning business and user goals with experience mapping."
+      nextLinkURL="/aligning-business-and-user-goals-with-experience-mapping"
+      previousLinkText="Home"
+      previousLinkURL="/"
     />
   </main>
 </template>
@@ -414,7 +421,10 @@ export default {
   & > div {
     grid-column: 1/9;
 
-    @include tablet {
+    @include desktop {
+      grid-column: 2/8;
+    }
+    @include large-desktop {
       grid-column: 3/7;
     }
   }
@@ -428,7 +438,10 @@ export default {
   & > div:not(.use-main-grid) {
     grid-column: 1/9;
 
-    @include tablet {
+    @include desktop {
+      grid-column: 2/8;
+    }
+    @include large-desktop {
       grid-column: 2/6;
       padding-right: 80px;
     }
@@ -438,7 +451,7 @@ export default {
 .iteration3-image {
   grid-column: 1/9;
 
-  @include tablet {
+  @include large-desktop {
     grid-column: 3/7;
   }
 }
@@ -449,7 +462,7 @@ export default {
   }
   .macbook-pro {
     width: 80%;
-    @include tablet {
+    @include large-desktop {
       width: unset;
       height: 600px;
     }
@@ -461,7 +474,7 @@ export default {
     top: 21px;
     width: 61%;
     left: 67px;
-    @include tablet {
+    @include large-desktop {
       top: 30px;
       left: 95px;
       width: 76%;
@@ -469,18 +482,22 @@ export default {
   }
 }
 
-#market-research, #iteration1 {
+#market-research,
+#iteration1 {
   .heading {
     grid-column: 1/9;
 
-    @include tablet {
+    @include desktop {
+      grid-column: 2/8;
+    }
+    @include large-desktop {
       grid-column: 3/7;
     }
   }
   .images {
     grid-column: 1/9;
 
-    @include tablet {
+    @include desktop {
       grid-column: 2/8;
     }
   }
@@ -496,7 +513,7 @@ export default {
       padding: 40px;
       width: 100%;
 
-      @include tablet {
+      @include large-desktop {
         flex: 0 0 calc(50% - 40px);
       }
     }
@@ -510,7 +527,10 @@ export default {
       & > div:first-child {
         grid-column: 1/9;
 
-        @include tablet {
+        @include desktop {
+          grid-column: 2/8;
+        }
+        @include large-desktop {
           grid-column: 3/7;
         }
       }
@@ -529,7 +549,7 @@ export default {
 
 .pointer {
   display: none;
-  @include tablet {
+  @include large-desktop {
     display: inline-block;
 
     position: absolute;

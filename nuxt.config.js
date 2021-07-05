@@ -61,6 +61,7 @@ export default {
   */
   modules: [
     "@nuxtjs/style-resources",
+    "@nuxtjs/google-analytics"
   ],
   styleResources: {
     scss: ["./assets/scss/main.scss"]
