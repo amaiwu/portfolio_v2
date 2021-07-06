@@ -4,7 +4,7 @@
       <section class="intro pt-200 center-box-content">
         <div class="text-center">
           <h1 class="ff-dm-serif fs-48">CHIAMAKA IWUANYANWU</h1>
-          <p>Product Designer. Software Engineer</p>
+          <p>Product Designer. Software Engineer.</p>
           <img src="~/assets/svg/dashed-line__short.svg" alt="" />
         </div>
       </section>

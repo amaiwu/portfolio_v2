@@ -32,7 +32,17 @@
           </a>
         </div>
       </section>
-      <section class="py-40">
+       <section class="pt-40">
+        <div>
+          <h2 class="ff-small-caps">Currently Reading</h2>
+          <ul class="py-20 pl-15">
+            <li>Papers on data governance and ML explainability.</li>
+            <li>Thinking with Type <em>by Ellen Lupton</em>.</li>
+            <li>Animal Farm <em>by George Orwell</em>.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="pb-40">
         <div>
           <h2 class="ff-small-caps mb-20">Been Listening to</h2>
           <a
@@ -43,16 +53,7 @@
           </a>
         </div>
       </section>
-      <section class="pb-40">
-        <div>
-          <h2 class="ff-small-caps">Currently Reading</h2>
-          <ul class="py-20 pl-15">
-            <li>Papers on data governance and ML explainability.</li>
-            <li>Thinking with Type <em>by Ellen Lupton</em>.</li>
-            <li>Animal Farm <em>by George Orwell</em>.</li>
-          </ul>
-        </div>
-      </section>
+     
       <section>
         <div
           class="p-10 br-4"
