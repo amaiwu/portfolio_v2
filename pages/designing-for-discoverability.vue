@@ -13,6 +13,12 @@
             overwhelming? I tried to solve this problem for a school project.
           </p>
         </div>
+         <case-meta-info
+          role="UX Designer"
+          roleNotes="(Solo Project)"
+          tools="Figma"
+          duration="~ 2 weeks"
+        />
       </section>
     </div>
 
@@ -293,9 +299,10 @@
 
 <script>
 import BottomPageNavigation from "../components/BottomPageNavigation.vue";
+import CaseMetaInfo from '../components/CaseMetaInfo.vue';
 
 export default {
-  components: { BottomPageNavigation },
+  components: { BottomPageNavigation, CaseMetaInfo },
 };
 </script>
 

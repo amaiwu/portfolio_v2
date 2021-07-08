@@ -5,7 +5,7 @@
         <div class="grid-col-4">
           <p class="ff-small-caps">UX DESIGN & EXPERIENCE MAPPING</p>
           <h1 class="ff-dm-serif fs-48 py-10">
-            Aligning business and user goals with 
+            Aligning business and user goals with
             <em style="color: #800900">experience mapping</em>.
           </h1>
           <p>
@@ -14,6 +14,12 @@
             redesign.
           </p>
         </div>
+        <case-meta-info
+          role="UX Designer"
+          roleNotes="(Team Project)"
+          tools="Figma, Mural, Zoom, Google Forms"
+          duration="~ 2 months"
+        />
       </section>
     </div>
 
@@ -428,9 +434,10 @@
 
 <script>
 import BottomPageNavigation from "../components/BottomPageNavigation.vue";
+import CaseMetaInfo from "../components/CaseMetaInfo.vue";
 
 export default {
-  components: { BottomPageNavigation },
+  components: { BottomPageNavigation, CaseMetaInfo },
 };
 </script>
 

@@ -15,6 +15,12 @@
             team tasked with making the Quora feed short-content friendly.
           </p>
         </div>
+        <case-meta-info
+          role="Product Designer"
+          roleNotes="(Team Project)"
+          tools="Figma, React, TypeScript"
+          duration="~ 1 Month"
+        />
       </section>
     </div>
 
@@ -410,9 +416,10 @@
 
 <script>
 import BottomPageNavigation from "../components/BottomPageNavigation.vue";
+import CaseMetaInfo from '../components/CaseMetaInfo.vue';
 
 export default {
-  components: { BottomPageNavigation },
+  components: { BottomPageNavigation, CaseMetaInfo },
 };
 </script>
 
