@@ -34,7 +34,7 @@ export default {
 .meta {
   grid-column: 1/9;
   @include desktop {
-    grid-column: 6/8;
+    grid-column: 2/5;
   }
   @include large-desktop {
     grid-column: 6/9;

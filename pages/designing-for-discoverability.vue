@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="wrapper">
-      <section class="container grid-row grid-margin align-items-center h-600">
+      <section class="container grid-row grid-margin align-items-center py-200">
         <div class="grid-col-4">
           <p class="ff-small-caps">UX DESIGN</p>
           <h1 class="ff-dm-serif fs-48 py-10">
