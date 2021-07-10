@@ -312,8 +312,8 @@
           <div class="text-center px-20 heading">
             <p class="ff-dm-serif fs-36 mb-10 fc-light-blue">
               The bubble variant increased comment expands
-              <em class="fc-red">by 12%</em>, but had the most negative impact
-              on critical metrics.
+              <em class="fc-red">by 12%</em>, but negatively impacted other
+              metrics.
             </p>
           </div>
         </div>
@@ -343,7 +343,8 @@
           </p>
           <p class="pb-10">
             which had a 10% increase in comment expands but the least negative
-            impact on other metrics, but this was not as successful as we had hoped.
+            impact on other metrics, but this was not as successful as we had
+            hoped.
           </p>
         </div>
       </section>
@@ -357,9 +358,9 @@
           <div class="px-20">
             <p class="ff-dm-serif fs-36 mb-10">And the 3rd iteration...</p>
             <p class="opacity-faded">
-              Unable to mitigate the impact on negative metrics when displaying comment
-              previews on short content, we resolved to replace existing comment
-              previews on long form content for the time being, as
+              Unable to mitigate the impact on negative metrics when displaying
+              comment previews on short content, we resolved to replace existing
+              comment previews on long form content for the time being, as
               <strong
                 ><em>this UI change promoted comment engagement.</em></strong
               >
