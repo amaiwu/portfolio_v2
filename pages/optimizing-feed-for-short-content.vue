@@ -173,7 +173,7 @@
           </p>
           <p class="py-10">
             Earlier experiments for comment previews had used the existing
-            comment UI, but this was costly to ad revenue as it took up
+            comment UI, but this was costly to other metrics as it took up
             significant vertical space.
           </p>
           <p>
@@ -313,7 +313,7 @@
             <p class="ff-dm-serif fs-36 mb-10 fc-light-blue">
               The bubble variant increased comment expands
               <em class="fc-red">by 12%</em>, but had the most negative impact
-              on ad-revenue.
+              on critical metrics.
             </p>
           </div>
         </div>
@@ -339,14 +339,11 @@
         <div class="grid-col-4">
           <h2 class="ff-small-caps">ITERATION #2</h2>
           <p class="ff-dm-serif fs-24 py-10">
-            We iterated on the rounded-box variant which had a 10% increase in
-            comment expands but the least negative impact on ad revenue...
+            We iterated on the rounded-box variant...
           </p>
           <p class="pb-10">
-            To reduce the impact on revenue, I experimented with displaying an
-            ad underneath the comment section when it is expanded. This was an
-            already existing pattern for comments that I had initially
-            overlooked. However, we still got pretty bad ad metrics.
+            which had a 10% increase in comment expands but the least negative
+            impact on other metrics, but this was not as successful as we had hoped.
           </p>
         </div>
       </section>
@@ -360,7 +357,7 @@
           <div class="px-20">
             <p class="ff-dm-serif fs-36 mb-10">And the 3rd iteration...</p>
             <p class="opacity-faded">
-              Unable to mitigate the impact on revenue when displaying comment
+              Unable to mitigate the impact on negative metrics when displaying comment
               previews on short content, we resolved to replace existing comment
               previews on long form content for the time being, as
               <strong
@@ -416,7 +413,7 @@
 
 <script>
 import BottomPageNavigation from "../components/BottomPageNavigation.vue";
-import CaseMetaInfo from '../components/CaseMetaInfo.vue';
+import CaseMetaInfo from "../components/CaseMetaInfo.vue";
 
 export default {
   components: { BottomPageNavigation, CaseMetaInfo },
