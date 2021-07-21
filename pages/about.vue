@@ -19,26 +19,45 @@
             University of Toronto, where i'm studying for a Master's Degree in
             UX Design.
           </p>
-          <a
-            href="https://www.linkedin.com/in/ChiamakaIwuanyanwu"
-            target="_blank"
-            class="no-underline fc-black fs-14 d-flex align-items-center mt-40"
-          >
-            <img
-              src="https://res.cloudinary.com/drsp4xifi/image/upload/v1624893325/Portfolio_v2/About/Vector_1_nmuut6.svg"
-              alt="linkedIn logo"
-              class="mr-10"
-            /><span>Find me on linkedIn</span>
-          </a>
+          <div class="d-flex mt-40">
+            <a
+              href="https://www.linkedin.com/in/ChiamakaIwuanyanwu"
+              target="_blank"
+              class="
+                no-underline
+                fc-black
+                fs-14
+                d-flex
+                align-items-center
+              "
+            >
+              <img
+                src="https://res.cloudinary.com/drsp4xifi/image/upload/v1624893325/Portfolio_v2/About/Vector_1_nmuut6.svg"
+                alt="linkedIn logo"
+                class="mr-10"
+              /><span>Find me on linkedIn</span>
+            </a>
+            <div class="mx-10 fs-14">• </div>
+
+            <a
+              class="fs-14"
+              href="https://res.cloudinary.com/drsp4xifi/image/upload/v1626838396/Chiamaka_s_Resume_new_ptngmn.pdf"
+              target="_blank"
+              >My Resume</a
+            >
+          </div>
         </div>
       </section>
-       <section class="pt-40">
+      <section class="pt-40">
         <div>
           <h2 class="ff-small-caps">Currently Reading</h2>
           <ul class="py-20 pl-15">
             <li>Thinking with Type <em>by Ellen Lupton</em>.</li>
             <li>Animal Farm <em>by George Orwell</em>.</li>
-            <li>Doing a lot of reading on Big Data and ML explainability, as i'm currently taking courses in these areas. </li>
+            <li>
+              Doing a lot of reading on Big Data and ML explainability, as i'm
+              currently taking courses in these areas.
+            </li>
           </ul>
         </div>
       </section>
@@ -53,7 +72,7 @@
           </a>
         </div>
       </section>
-     
+
       <section>
         <div
           class="p-10 br-4"
