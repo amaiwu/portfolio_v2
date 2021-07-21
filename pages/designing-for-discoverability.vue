@@ -13,8 +13,8 @@
             overwhelming? I tried to solve this problem for a school project.
           </p>
         </div>
-         <case-meta-info
-          role="UX Designer"
+        <case-meta-info
+          role="Designer"
           roleNotes="(Solo Project)"
           tools="Figma"
           duration="~ 2 weeks"
@@ -30,7 +30,7 @@
     >
       <div class="wrapper">
         <img
-          src="https://res.cloudinary.com/drsp4xifi/image/upload/v1625447079/Portfolio_v2/Group_248_otp1tp.png"
+          src="https://res.cloudinary.com/drsp4xifi/image/upload/v1626833562/Portfolio_v2/Group_248_hvmcwn.png"
           class="w-100"
           style="object-fit: cover"
           height="400px"
@@ -51,8 +51,8 @@
           <p class="pb-10">
             It’s main idea is to curate photos and stories, with every piece of
             content connected to a location. After designing the pages for
-            individual stories (inner pages), I began to explore how users will
-            discover new content.
+            individual stories (inner pages), I began to explore ways to help
+            users discover new content.
           </p>
           <p>
             The final solution was a randomized feed curated around one main
@@ -81,18 +81,16 @@
         <div class="grid-col-4">
           <h2 class="ff-small-caps">DISCOVERY</h2>
           <p class="ff-dm-serif fs-36 py-10">
-            With multiple content types, Pattr needed entry points to aid
-            discoverability...
+            With multiple content types, discoverability was important...
           </p>
           <p>
             Pattr was designed to have 4 major content types - stories,
             memories, questions, nuggets. Having designed what an individual
-            page for each content,
+            page for each content would look like,
             <strong
-              >I considered two main ideas - A personalized feed and
-              search</strong
-            >
-            — both common patterns for aiding discoverability.
+              >I considered two main ideas to aid discoverability - A
+              personalized feed and search</strong
+            >.
           </p>
         </div>
       </section>
@@ -102,7 +100,7 @@
         <div class="container grid-row px-80">
           <div class="pb-100 fc-light-blue">
             <p class="ff-dm-serif fs-36 text-center">
-              Several UI patterns are used to present content in feed
+              Different UI patterns are used to present content in feed
             </p>
           </div>
         </div>
@@ -196,13 +194,14 @@
               <h4 class="ff-small-caps opacity-1">
                 ❌ STYLE #1 - GROUP BY CATEGORY
               </h4>
-              <p class="pt-20 pb-10 opacity-faded">
+              <p class="py-20 pb-10 opacity-faded">
                 This used 4 clearly labelled categories to help users identify
                 content. A defined ending to the page controls the amount of
                 information user have to consume to find information. Coupled
                 with a unique UI elements for each content type, this makes the
                 feed easily digestible.
               </p>
+              <p class="opacity-faded">However, this feed style might inhibit discoverability. Imagine a scenario, where users never scroll past the stories section; this would mean that other content types get less engagement.</p>
             </div>
           </div>
           <figure class="grid-col-8 px-124">
@@ -213,13 +212,6 @@
               class="img-fluid"
             />
           </figure>
-          <div class="grid-col-8 d-flex justify-content-end flex-2-col px-124">
-            <div class="">
-              <p class="ff-dm-serif fs-36">
-                However, finite scroll could inhibit discoverability.
-              </p>
-            </div>
-          </div>
         </div>
         <div
           class="container grid-row px-124 py-200"
@@ -233,7 +225,7 @@
               <p class="pt-20 pb-10 opacity-faded">
                 I resolved to build the feed around one primary content -
                 stories —, with other content types being secondary. This would
-                have the benefit of allowing users scroll to explor more content
+                have the benefit of allowing users scroll to explore more content
                 while not overwhelming the users with different types of content
                 at short intervals.
               </p>
@@ -272,18 +264,16 @@
       >
         <div class="grid-col-4">
           <h2 class="ff-small-caps">LEARNINGS & NEXT Steps</h2>
-          <p class="ff-dm-serif fs-36 py-10">
-            This isn’t complete without testing...
-          </p>
-          <p class="pb-10">
-            However, I learned much about designing for discoverability for
-            content based applications and the difficulties that come with
-            managing multiple content types.
+          <p class="py-10">
+            I learned about designing for discoverability for content based
+            applications and the difficulties that come with managing multiple
+            content types.
           </p>
           <p>
-            With more time and resources, I would be interested to know how my
-            assumptions fair against number of clicks on each type of content,
-            and number of active minutes in the app.
+            With more time and resources, I would test both feed variants to
+            validate my hypothesis. I would be particularly interested in
+            knowing how both designs fair against number of clicks on each type
+            of content, and number of active minutes in the app.
           </p>
         </div>
       </section>
@@ -299,7 +289,7 @@
 
 <script>
 import BottomPageNavigation from "../components/BottomPageNavigation.vue";
-import CaseMetaInfo from '../components/CaseMetaInfo.vue';
+import CaseMetaInfo from "../components/CaseMetaInfo.vue";
 
 export default {
   components: { BottomPageNavigation, CaseMetaInfo },

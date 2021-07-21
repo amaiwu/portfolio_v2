@@ -554,7 +554,7 @@ strong {
 }
 
 /*********************/
-ul:not(.list-unstyled) {
+ul:not(.list-unstyled),ol:not(.list-unstyled)  {
   padding-left: 40px;
 }
 .list-unstyled {

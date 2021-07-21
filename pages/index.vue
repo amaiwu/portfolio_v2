@@ -52,11 +52,21 @@ export default {
     return {
       caseStudies: [
         {
+          tags: "UX DESIGN",
+          title: `Designing a mobile app for gifting meals.`,
+          previewText: `What if we could know what people in need of food would like to eat before we offered? I designed a possible solution for a school project.`,
+          pageLink: `/designing-a-mobile-app-for-gifting-meals`,
+          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626833562/Portfolio_v2/Group_249_e7gypf.png`,
+          thumbnailAltText: `Thumbnail`,
+          imgBackgroundColor:
+            "background: linear-gradient(111.31deg, #124f3f 35.97%, #22538d 96.05%);",
+        },
+        {
           tags: "UX DESIGN, DEVELOPMENT & A/B TESTING",
           title: `Optimizing feed for short content with comment previews.`,
           previewText: `During my internship at Quora, I worked as part of a cross-functional team tasked with making the Quora feed short-content friendly.`,
           pageLink: `/optimizing-feed-for-short-content`,
-          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_2000/v1625180980/Portfolio_v2/Group_247_gthloj.png`,
+          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626833562/Portfolio_v2/Group_247_xrnmyr.png`,
           thumbnailAltText: `Thumbnail`,
           imgBackgroundColor:
             "background: linear-gradient(109.15deg, #1E487B 37.11%, #8E3642 99.61%)",
@@ -66,7 +76,7 @@ export default {
           title: `Aligning business and user goals with experience mapping.`,
           previewText: ` My team and I identified a more impactful direction for our project with The Ontario Pops Orchestra, which led to a full website redesign.`,
           pageLink: `/aligning-business-and-user-goals-with-experience-mapping`,
-          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1625445872/Portfolio_v2/Group_246_2_qkpeyc.svg`,
+          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626834988/Portfolio_v2/Group_246-4_dy4na9.png`,
           thumbnailAltText: `Thumbnail`,
           imgBackgroundColor:
             "background: linear-gradient(251.65deg, #1e487b 37.55%, #8e3642 98.5%)",
@@ -77,7 +87,7 @@ export default {
           previewText: `How can we help users find relevant content without being
           overwhelming? I tried to solve this problem for a school project.`,
           pageLink: `/designing-for-discoverability`,
-          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1625447079/Portfolio_v2/Group_248_otp1tp.png`,
+          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626833562/Portfolio_v2/Group_248_hvmcwn.png`,
           thumbnailAltText: `Thumbnail`,
           imgBackgroundColor:
             "background: linear-gradient(111.31deg, #124f3f 35.97%, #22538d 96.05%);",

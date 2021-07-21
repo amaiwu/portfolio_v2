@@ -15,8 +15,8 @@
           </p>
         </div>
         <case-meta-info
-          role="UX Designer"
-          roleNotes="(Team Project)"
+          role="Designer"
+          roleNotes="(on a team of 4, all participating in UX research and design)"
           tools="Figma, Mural, Zoom, Google Forms"
           duration="~ 2 months"
         />
@@ -31,7 +31,7 @@
     >
       <div class="wrapper">
         <img
-          src="https://res.cloudinary.com/drsp4xifi/image/upload/v1625445872/Portfolio_v2/Group_246_2_qkpeyc.svg"
+          src="https://res.cloudinary.com/drsp4xifi/image/upload/v1626834988/Portfolio_v2/Group_246-4_dy4na9.png"
           class="w-100"
           style="object-fit: cover"
           height="400px"
@@ -56,9 +56,9 @@
             website.
           </p>
           <p>
-            I led the design of the experience map, which was important for
-            pitching our ideas to the OPO and demistifying the UX process. I
-            also worked as a designer for the website.
+            I was involved in both the research and design phases, taking the lead
+            on designing the experience map, which helped in 
+            pitching our ideas to the OPO and demistifying the UX process.
           </p>
         </div>
       </section>
@@ -258,7 +258,7 @@
           <h2 class="ff-small-caps">DESIGN</h2>
           <p class="ff-dm-serif fs-36 py-10">
             A major constraint was working within the limitations of the OPO’s
-            web builder - WEEBLY...
+            web builder...
           </p>
           <p>
             While we would have loved to be more creative, it was most important
@@ -367,8 +367,8 @@
             <div class="">
               <h4 class="ff-small-caps opacity-1">SOCIAL MEDIA INTEGRATION</h4>
               <p class="pt-20 pb-10 opacity-faded">
-                To keep the website looking lively, we integrated OPO’s
-                instagram. It was the most frequently updated social media and
+                To keep the website lively, we integrated OPO’s
+                instagram to provide dynamic content. It was the most frequently updated social media and
                 fortunately this was possible to achieve with Weebly.
               </p>
             </div>

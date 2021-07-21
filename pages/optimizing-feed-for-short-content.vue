@@ -16,8 +16,8 @@
           </p>
         </div>
         <case-meta-info
-          role="Product Designer"
-          roleNotes="(Team Project)"
+          role="Designer"
+          roleNotes="(on a team with an ML engineer and a data analyst)"
           tools="Figma, React, TypeScript"
           duration="~ 1 Month"
         />
@@ -32,7 +32,7 @@
     >
       <div class="wrapper">
         <img
-          src="https://res.cloudinary.com/drsp4xifi/image/upload/c_scale,w_4000/v1625446111/Portfolio_v2/Group_247_1_ft4o6x.png"
+          src="https://res.cloudinary.com/drsp4xifi/image/upload/v1626833562/Portfolio_v2/Group_247_xrnmyr.png"
           class="w-100"
           style="object-fit: cover"
           height="400px"
@@ -47,12 +47,12 @@
         <div class="">
           <h2 class="ff-small-caps">BACKGROUND</h2>
           <p class="ff-dm-serif fs-36 pt-10">
-            Short content is not less valuable than long content...
+            Short content can be valuable...
           </p>
           <p class="py-10">
             Quora is a Q&A platform with a mission to grow the world’s
-            knowledge. Though allowing for both long and short-form content, we
-            noticed that short-form content on the platform was not getting as
+            knowledge. While Quora allows for both long and short-form content,
+            we noticed that short content on the platform was not getting as
             much distribution.
           </p>
           <p>
@@ -87,8 +87,8 @@
         <div class="grid-col-4">
           <h2 class="ff-small-caps">DISCOVERY</h2>
           <p class="ff-dm-serif fs-36 py-10">
-            With barely any clickable target, short-content did not get enough
-            distribution...
+            Because short-content could not be expanded, its distribution was
+            affected...
           </p>
           <p>
             Long form content on Quora is collapsed by default to allow for more
@@ -120,11 +120,11 @@
               users?
             </p>
             <p class="py-10">
-              Similar platforms often show a comment preview pre-expand,
-              choosing comments based on attributes such as affinity between the
-              viewer and the commenter, popularity, engagement etc. to increase
-              the likelihood that the comment previewed is one the user will be
-              interested in.
+              Similar platforms often show a comment preview pre-expand. The
+              comment that is previewed is often chosen based on attributes such
+              as affinity between the viewer and the commenter, popularity,
+              engagement etc. to increase the likelihood that the comment
+              previewed is one the user will be interested in.
             </p>
             <p class="">
               Features such as the commenter's name and avatar, further aid
@@ -172,13 +172,13 @@
             We needed to optimize for clicks using a dense UI...
           </p>
           <p class="py-10">
-            Earlier experiments for comment previews had used the existing
-            comment UI, but this was costly to other metrics as it took up
-            significant vertical space.
+            Previous experiments for comment previews had used the existing
+            comment UI, which took up a lot of vertical space on feed. This was
+            not a good user experience and our metrics showed that.
           </p>
           <p>
             Also, a dense form of a comment preview existed on long-form
-            content, but it could be A LOT better.
+            content, but this could be improved.
           </p>
         </div>
         <div class="grid-col-2 use-main-grid">
@@ -224,7 +224,7 @@
               reduce the height.
             </p>
             <p class="opacity-faded">
-              Clicking on the comment preview expanded the comments inline.
+              The user interaction was simple - clicking on the comment preview expanded the comments inline on feed.
             </p>
           </div>
         </div>
@@ -271,8 +271,8 @@
               />
               <figcaption class="mt-20">
                 <p class="fs-14">
-                  This speech bubble UI looks modern and is a common comment UI
-                  trend.
+                  This speech bubble UI is a common comment UI
+                  trend, and can be easily identified as a comment/message/response.
                 </p>
               </figcaption>
             </figure>
@@ -342,7 +342,7 @@
             We iterated on the rounded-box variant...
           </p>
           <p class="pb-10">
-            which had a 10% increase in comment expands but the least negative
+            The <em>rounded box variant</em> had a 10% increase in comment expands but the least negative
             impact on other metrics, but this was not as successful as we had
             hoped.
           </p>
@@ -360,7 +360,7 @@
             <p class="opacity-faded">
               Unable to mitigate the impact on negative metrics when displaying
               comment previews on short content, we resolved to replace existing
-              comment previews on long form content for the time being, as
+              comment previews on long form content for the time being, as metrics showed that
               <strong
                 ><em>this UI change promoted comment engagement.</em></strong
               >
@@ -392,12 +392,11 @@
           <p class="pb-10">
             In designing for ML-driven solutions, it is important to seek ways
             to learn about the user. When design supports ML, it makes for a
-            better and more personalized user experience.
+            more personalized user experience.
           </p>
           <p>
-            This was one of my first experiences with data driven design, and a
-            major takeaway was to not design solely for the algorithm. It's
-            important to always keep the user in mind.
+            This was one of my first experiences with data-driven design and A/B testing. A
+            major takeaway was to, as a designer, always advocate for the user's experience, even when working closely with machine learning.
           </p>
         </div>
       </section>
@@ -406,8 +405,8 @@
     <bottom-page-navigation
       nextLinkText="Aligning business and user goals with experience mapping."
       nextLinkURL="/aligning-business-and-user-goals-with-experience-mapping"
-      previousLinkText="Home"
-      previousLinkURL="/"
+      previousLinkText="Designing a mobile app for gifting meals."
+      previousLinkURL="/designing-a-mobile-app-for-gifting-meals"
     />
   </main>
 </template>
