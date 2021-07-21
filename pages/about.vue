@@ -36,9 +36,9 @@
         <div>
           <h2 class="ff-small-caps">Currently Reading</h2>
           <ul class="py-20 pl-15">
-            <li>Papers on data governance and ML explainability.</li>
             <li>Thinking with Type <em>by Ellen Lupton</em>.</li>
             <li>Animal Farm <em>by George Orwell</em>.</li>
+            <li>Doing a lot of reading on Big Data and ML explainability, as i'm currently taking courses in these areas. </li>
           </ul>
         </div>
       </section>
