@@ -66,7 +66,7 @@ export default {
           title: `Optimizing feed for short content with comment previews.`,
           previewText: `During my internship at Quora, I worked as part of a cross-functional team tasked with making the Quora feed short-content friendly.`,
           pageLink: `/optimizing-feed-for-short-content`,
-          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626833562/Portfolio_v2/Group_247_xrnmyr.png`,
+          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626880154/Portfolio_v2/Group_247_bn3yit.png`,
           thumbnailAltText: `Thumbnail`,
           imgBackgroundColor:
             "background: linear-gradient(109.15deg, #1E487B 37.11%, #8E3642 99.61%)",

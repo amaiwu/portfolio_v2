@@ -32,7 +32,7 @@
     >
       <div class="wrapper">
         <img
-          src="https://res.cloudinary.com/drsp4xifi/image/upload/v1626833562/Portfolio_v2/Group_247_xrnmyr.png"
+          src="https://res.cloudinary.com/drsp4xifi/image/upload/v1626880154/Portfolio_v2/Group_247_bn3yit.png"
           class="w-100"
           style="object-fit: cover"
           height="400px"
