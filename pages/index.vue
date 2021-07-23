@@ -61,16 +61,16 @@ export default {
           imgBackgroundColor:
             "background: linear-gradient(111.31deg, #124f3f 35.97%, #22538d 96.05%);",
         },
-        {
-          tags: "UX DESIGN, DEVELOPMENT & A/B TESTING",
-          title: `Optimizing feed for short content with comment previews.`,
-          previewText: `During my internship at Quora, I worked as part of a cross-functional team tasked with making the Quora feed short-content friendly.`,
-          pageLink: `/optimizing-feed-for-short-content`,
-          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626880154/Portfolio_v2/Group_247_bn3yit.png`,
-          thumbnailAltText: `Thumbnail`,
-          imgBackgroundColor:
-            "background: linear-gradient(109.15deg, #1E487B 37.11%, #8E3642 99.61%)",
-        },
+        // {
+        //   tags: "UX DESIGN, DEVELOPMENT & A/B TESTING",
+        //   title: `Optimizing feed for short content with comment previews.`,
+        //   previewText: `During my internship at Quora, I worked as part of a cross-functional team tasked with making the Quora feed short-content friendly.`,
+        //   pageLink: `/optimizing-feed-for-short-content`,
+        //   thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626880154/Portfolio_v2/Group_247_bn3yit.png`,
+        //   thumbnailAltText: `Thumbnail`,
+        //   imgBackgroundColor:
+        //     "background: linear-gradient(109.15deg, #1E487B 37.11%, #8E3642 99.61%)",
+        // },
         {
           tags: "UX DESIGN & EXPERIENCE MAPPING",
           title: `Aligning business and user goals with experience mapping.`,
