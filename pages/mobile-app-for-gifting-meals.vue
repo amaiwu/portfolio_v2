@@ -315,10 +315,10 @@
     </div>
 
     <bottom-page-navigation
-      nextLinkText="Improving comment engagement with comment previews"
-      nextLinkURL="/optimizing-feed-for-short-content"
-      previousLinkText="Home"
-      previousLinkURL="/"
+      nextLinkText="About"
+      nextLinkURL="/about"
+      previousLinkText="Aligning business and user goals with experience mapping"
+      previousLinkURL="/aligning-business-and-user-goals"
     />
   </main>
 </template>
