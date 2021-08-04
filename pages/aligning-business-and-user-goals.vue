@@ -12,7 +12,7 @@
         <case-meta-info
           class="grid-col-4"
           role="Design & Research"
-          roleNotes="(along with 5 team members)"
+          roleNotes="(all 5 team members collaborated in all phases of the project)"
           tools="Figma, Mural, Zoom, Google Forms"
           duration="~ 3 months (February - April 2021)"
           process="Research → Ideation → Design → Usability Testing"
