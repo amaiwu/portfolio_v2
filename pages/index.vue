@@ -3,9 +3,8 @@
     <main class="grid-margin">
       <section class="intro pt-200 center-box-content">
         <div class="text-center">
-          <h1 class="ff-dm-serif fs-48">CHIAMAKA IWUANYANWU</h1>
-          <p>Product Designer. Software Engineer.</p>
-          <img src="~/assets/svg/dashed-line__short.svg" alt="" />
+          <h1 class="ff-dm-serif fs-60">CHI<em>AMAKA</em> IWUANYANWU</h1>
+          <p class="fs-18 fc-grey">Product Designer</p>
         </div>
       </section>
       <section class="work pt-200" id="work">
@@ -19,17 +18,17 @@
               no-underline
               br-20
               d-block
-              bc-white
+              bc-almost-white
             "
             v-for="(caseStudy, i) in caseStudies"
             :key="i"
           >
             <div class="px-80 py-80">
               <p class="ff-small-caps fs-14 mb-10">{{ caseStudy.tags }}</p>
-              <h3 class="fs-24 ff-dm-serif" style="margin-bottom: 20px">
+              <h3 class="fs-36 ff-dm-serif" style="margin-bottom: 20px">
                 {{ caseStudy.title }}
               </h3>
-              <p class="fs-16">{{ caseStudy.previewText }}</p>
+              <p class="fs-14 fc-grey">{{ caseStudy.skills }}</p>
             </div>
             <figure :style="caseStudy.imgBackgroundColor">
               <img
@@ -52,46 +51,63 @@ export default {
     return {
       caseStudies: [
         {
-          tags: "UX DESIGN",
-          title: `Designing a mobile app for gifting meals.`,
-          previewText: `What if we could know what people in need of food would like to eat before we offered? I designed a possible solution for a school project.`,
-          pageLink: `/designing-a-mobile-app-for-gifting-meals`,
-          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626833562/Portfolio_v2/Group_249_e7gypf.png`,
+          tags: "QUORA",
+          title: `A new notification system for user engagement.`,
+          pageLink: `/new-notif-system`,
+          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1627859437/Portfolio_v2/new%20notif%20system/Group_250_tost9m.png`,
           thumbnailAltText: `Thumbnail`,
           imgBackgroundColor:
             "background: linear-gradient(111.31deg, #124f3f 35.97%, #22538d 96.05%);",
+          skills: "Design • Research • Documentation"
         },
-        // {
-        //   tags: "UX DESIGN, DEVELOPMENT & A/B TESTING",
-        //   title: `Optimizing feed for short content with comment previews.`,
-        //   previewText: `During my internship at Quora, I worked as part of a cross-functional team tasked with making the Quora feed short-content friendly.`,
-        //   pageLink: `/optimizing-feed-for-short-content`,
-        //   thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626880154/Portfolio_v2/Group_247_bn3yit.png`,
-        //   thumbnailAltText: `Thumbnail`,
-        //   imgBackgroundColor:
-        //     "background: linear-gradient(109.15deg, #1E487B 37.11%, #8E3642 99.61%)",
-        // },
+           {
+          tags: "QUORA",
+          title: `Improving user engagement with comment previews.`,
+          pageLink: `/comment-previews`,
+          // pageLink: `/optimizing-feed-for-short-content`,
+          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626880154/Portfolio_v2/Group_247_bn3yit.png`,
+          thumbnailAltText: `Thumbnail`,
+          imgBackgroundColor:
+            "background: linear-gradient(109.15deg, #1E487B 37.11%, #8E3642 99.61%)",
+          skills: "Design • Development • A/B Testing"
+
+        },
         {
-          tags: "UX DESIGN & EXPERIENCE MAPPING",
+          tags: "THE ONTARIO POPS ORCHESTRA (OPO)",
           title: `Aligning business and user goals with experience mapping.`,
-          previewText: ` My team and I identified a more impactful direction for our project with The Ontario Pops Orchestra, which led to a full website redesign.`,
-          pageLink: `/aligning-business-and-user-goals-with-experience-mapping`,
+          // pageLink: `/aligning-business-and-user-goals-with-experience-mapping`,
+          pageLink: `/aligning-business-and-user-goals`,
           thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626834988/Portfolio_v2/Group_246-4_dy4na9.png`,
           thumbnailAltText: `Thumbnail`,
           imgBackgroundColor:
             "background: linear-gradient(251.65deg, #1e487b 37.55%, #8e3642 98.5%)",
+          skills: "Design • Research • Usability Testing"
+
         },
         {
-          tags: "UX DESIGN",
-          title: `Designing for discoverability.`,
-          previewText: `How can we help users find relevant content without being
-          overwhelming? I tried to solve this problem for a school project.`,
-          pageLink: `/designing-for-discoverability`,
-          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626833562/Portfolio_v2/Group_248_hvmcwn.png`,
+          tags: "PERSONAL PROJECT",
+          title: `Designing a mobile app for gifting meals.`,
+          pageLink: `/designing-a-mobile-app-for-gifting-meals`,
+          pageLink: `/mobile-app-for-gifting-meals`,
+          thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626833562/Portfolio_v2/Group_249_e7gypf.png`,
           thumbnailAltText: `Thumbnail`,
           imgBackgroundColor:
             "background: linear-gradient(111.31deg, #124f3f 35.97%, #22538d 96.05%);",
+          skills: "Design • Protoyping"
+
         },
+     
+        // {
+        //   tags: "PERSONAL",
+        //   title: `Designing for discoverability.`,
+        //   pageLink: `/designing-for-discoverability`,
+        //   thumbnailURL: `https://res.cloudinary.com/drsp4xifi/image/upload/v1626833562/Portfolio_v2/Group_248_hvmcwn.png`,
+        //   thumbnailAltText: `Thumbnail`,
+        //   imgBackgroundColor:
+        //     "background: linear-gradient(111.31deg, #124f3f 35.97%, #22538d 96.05%);",
+        //   skills: "Design • Prototyping"
+
+        // },
       ],
     };
   },
@@ -136,9 +152,13 @@ nav {
     // padding: var(--p-40) var(--p-20);
 
     &:hover {
-      background: var(--almost-white);
+      background: white;
       filter: drop-shadow(0px 4px 30px #fafafb);
       transition: all 0.2s;
+
+      h3 {
+        color: var(--light-blue)
+      }
     }
 
     & > * {

@@ -13,7 +13,8 @@
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/style-resources": "^1.1.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue-scrollactive": "^0.9.3"
   },
   "devDependencies": {
     "node-sass": "^6.0.0",

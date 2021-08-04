@@ -5,14 +5,13 @@
         <div class="grid-col-4">
           <p class="ff-small-caps">UX DESIGN, DEVELOPMENT & A/B TESTING</p>
           <h1 class="ff-dm-serif fs-48 py-10">
-            Optimizing feed for <br />
-            short content with <br />
+            Improving comment engagement with <br />
             <em style="color: #be0713">comment previews</em>.
           </h1>
           <p>
             During my internship at <strong>Quora</strong>, I worked as part of
             a cross-functional <br />
-            team tasked with making the Quora feed short-content friendly.
+            to improve the feed experience of users using comment previews.
           </p>
         </div>
         <case-meta-info
@@ -45,20 +44,18 @@
         class="container grid-row grid-margin center-grid-content h-600 py-200"
       >
         <div class="">
-          <h2 class="ff-small-caps">BACKGROUND</h2>
-          <p class="ff-dm-serif fs-36 pt-10">
-            Short content can be valuable...
-          </p>
+          <h2 class="ff-dm-serif fs-36">BACKGROUND</h2>
           <p class="py-10">
-            Quora is a Q&A platform with a mission to grow the world’s
-            knowledge. While Quora allows for both long and short-form content,
-            we noticed that short content on the platform was not getting as
-            much distribution.
+            During my internship at Quora, I worked with the distribution team
+            on a project to ensure that there was no bias on the Quora feed
+            against short content. While Quora allows for both long and
+            short-form content, we noticed that short content on the platform
+            was not getting as much distribution.
           </p>
           <p>
             Working with a team of ML engineers and data analysts, I explored
-            comment previews as a way to promote comment engagement, and
-            consequently collect signals to aid content distribution.
+            comment previews as a way to promote comment engagement on content
+            on quora.
           </p>
         </div>
       </section>
@@ -85,27 +82,26 @@
         class="container grid-row grid-margin center-grid-content pb-200"
       >
         <div class="grid-col-4">
-          <h2 class="ff-small-caps">DISCOVERY</h2>
-          <p class="ff-dm-serif fs-36 py-10">
+          <h2 class="ff-dm-serif fs-36 py-10">DISCOVERY</h2>
+          <!-- <p class="ff-dm-serif fs-36 py-10">
             Because short-content could not be expanded, its distribution was
             affected...
-          </p>
+          </p> -->
           <p>
-            Long form content on Quora is collapsed by default to allow for more
-            content on a user’s feed, which means clicking on the “more” link to
-            view the full content. This click-action helps ML models in curating
-            personalized feed for user.
+            On the Quora feed, long-form content is collapsed by default and
+            expanded when a user clicks on the "read more" link. This kind of
+            user interaction helps the machine learning model learn and
+            consequently improves the feed experience for users. For short
+            content however, this feature does not exist. The result is a
+            possibly skewed prediction model that may not have enough
+            information to understand users perception of short content.
           </p>
           <p class="py-10">
-            As short content lacked this expandable ability, we looked to
-            comment previews to fill the gap.
-          </p>
-          <p class="fs-14">
-            <em
-              >N.B.: For this project, short-content referred to text-only
-              content that could not be expanded, and did not have any
-              featurables e.g. images and links.
-            </em>
+            As part of our efforts to mitigate this, I was tasked with
+            implementing comment previews on short content. A benefit of this is
+            that with increased comment engagement, we can learn more about
+            content that users care for, and this in turn creates a better feed
+            experience for users.
           </p>
         </div>
       </section>
@@ -116,20 +112,18 @@
         <div class="container grid-row px-80">
           <div class="pt-200 pb-150 heading">
             <p class="ff-dm-serif fs-36 mb-10 fc-light-blue">
-              HMW collect signals for short-content while providing value for
-              users?
+              IDEATION & COMPROMISES
             </p>
             <p class="py-10">
-              Similar platforms often show a comment preview pre-expand. The
-              comment that is previewed is often chosen based on attributes such
-              as affinity between the viewer and the commenter, popularity,
-              engagement etc. to increase the likelihood that the comment
-              previewed is one the user will be interested in.
+              Keeping in mind that vertical space was important, every feature
+              on the comment preview needed to serve a purpose, with the major
+              aim of giving the user enough information to decide whether or not
+              to keep reading.
             </p>
+            <p class="ff-small-caps">To keep the action bar or not???</p>
             <p class="">
-              Features such as the commenter's name and avatar, further aid
-              familiarity. All these work to improve the experience of viewers
-              by highlighting content relevant to them, even among comments.
+              My initial was simple - reduce the size of every comment element
+              and truncate the text at two lines. However
             </p>
           </div>
         </div>
@@ -172,13 +166,13 @@
             We needed to optimize for clicks using a dense UI...
           </p>
           <p class="py-10">
-            Previous experiments for comment previews had used the existing
-            comment UI, which took up a lot of vertical space on feed. This was
-            not a good user experience and our metrics showed that.
+            In designing the comment preview variants, it was important to
+            display enough information to allow users to decide if they would
+            want to keep reading while not taking up too much vertical space.
           </p>
           <p>
-            Also, a dense form of a comment preview existed on long-form
-            content, but this could be improved.
+            Based on previous experiments, taking up too much vertical space
+            could hurt other feed metrics.
           </p>
         </div>
         <div class="grid-col-2 use-main-grid">
@@ -224,7 +218,8 @@
               reduce the height.
             </p>
             <p class="opacity-faded">
-              The user interaction was simple - clicking on the comment preview expanded the comments inline on feed.
+              The user interaction was simple - clicking on the comment preview
+              expanded the comments inline on feed.
             </p>
           </div>
         </div>
@@ -271,8 +266,8 @@
               />
               <figcaption class="mt-20">
                 <p class="fs-14">
-                  This speech bubble UI is a common comment UI
-                  trend, and can be easily identified as a comment/message/response.
+                  This speech bubble UI is a common comment UI trend, and can be
+                  easily identified as a comment/message/response.
                 </p>
               </figcaption>
             </figure>
@@ -342,9 +337,9 @@
             We iterated on the rounded-box variant...
           </p>
           <p class="pb-10">
-            The <em>rounded box variant</em> had a 10% increase in comment expands but the least negative
-            impact on other metrics, but this was not as successful as we had
-            hoped.
+            The <em>rounded box variant</em> had a 10% increase in comment
+            expands but the least negative impact on other metrics, but this was
+            not as successful as we had hoped.
           </p>
         </div>
       </section>
@@ -360,7 +355,8 @@
             <p class="opacity-faded">
               Unable to mitigate the impact on negative metrics when displaying
               comment previews on short content, we resolved to replace existing
-              comment previews on long form content for the time being, as metrics showed that
+              comment previews on long form content for the time being, as
+              metrics showed that
               <strong
                 ><em>this UI change promoted comment engagement.</em></strong
               >
@@ -395,8 +391,10 @@
             more personalized user experience.
           </p>
           <p>
-            This was one of my first experiences with data-driven design and A/B testing. A
-            major takeaway was to, as a designer, always advocate for the user's experience, even when working closely with machine learning.
+            This was one of my first experiences with data-driven design and A/B
+            testing. A major takeaway was to, as a designer, always advocate for
+            the user's experience, even when working closely with machine
+            learning.
           </p>
         </div>
       </section>

@@ -50,11 +50,11 @@ export default {
   css: [
     "~/assets/scss/main.scss"
   ],
-  
+
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
+  plugins: ["~/plugins/scroll-active.js"
   ],
   /*
   ** Nuxt.js modules

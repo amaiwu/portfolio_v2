@@ -9,8 +9,8 @@
             <em style="color: #6e4f9e">mobile app</em> gifting meals.
           </h1>
           <p>
-            What if we could know what people in need of food would like to eat
-            before we offered? I designed a possible solution for a school project.
+            What if we knew exactly what people in need wanted before we
+            offered? I worked on this in the context of food for a school project.
           </p>
         </div>
         <case-meta-info
@@ -48,7 +48,7 @@
         class="container grid-row grid-margin center-grid-content pt-200 pb-150"
       >
         <div class="">
-          <h2 class="ff-small-caps">BACKGROUND</h2>
+          <h2 class="ff-dm-serif fs-36">Background</h2>
           <p class="py-10">
             Food donation beneficiaries are at the mercy of whatever food is
             donated. This means they may or may not like/enjoy what is being
@@ -58,7 +58,7 @@
             To improve this experience, I designed a solution that would connect
             those in need of food (beneficiaries) to those willing to give
             (givers) while allowing beneficiaries create their own food menus.
-            The result is a happy beneficiary and a giver who is confident that
+            The outcome is a happy beneficiary and a giver who is confident that
             their gift will be appreciated.
           </p>
         </div>

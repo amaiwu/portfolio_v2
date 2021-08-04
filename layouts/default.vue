@@ -13,11 +13,14 @@
           "
         >
           <img src="~/assets/images/ama_memoji.png" height="60px" alt="" />
-          <span>Ama</span>
         </nuxt-link>
         <ul class="list-unstyled ff-small-caps opacity-1">
           <li>
-            <nuxt-link :to="{path: '/', hash:'#work'}" exact class="fc-black no-underline">
+            <nuxt-link
+              :to="{ path: '/', hash: '#work' }"
+              exact
+              class="fc-black no-underline"
+            >
               WORK
             </nuxt-link>
           </li>
@@ -64,5 +67,17 @@ ul {
 footer {
   height: 60px;
   border-top: 0.5px solid #dcdcdc;
+}
+
+.nuxt-link-active:not(.brand_logo) {
+  font-weight: 700;
+  position: relative;
+  display: block;
+  &::before {
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    content: "👆🏾";
+  }
 }
 </style>

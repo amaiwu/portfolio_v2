@@ -405,7 +405,7 @@ strong {
     line-height: 21px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    opacity: 0.6;
+    color: var(--grey);
   }
 }
 
@@ -447,6 +447,13 @@ strong {
 
     @include large-desktop {
       font-size: var(--fs-48);
+    }
+  }
+  &-60 {
+    font-size: var(--fs-36);
+
+    @include large-desktop {
+      font-size: var(--fs-60);
     }
   }
 }
@@ -556,6 +563,13 @@ strong {
 /*********************/
 ul:not(.list-unstyled),ol:not(.list-unstyled)  {
   padding-left: 40px;
+
+  li {
+    list-style-type: "🎯   ";
+  }
+}
+li {
+  margin-bottom: 8px;
 }
 .list-unstyled {
   list-style: none;
@@ -568,7 +582,7 @@ ul:not(.list-unstyled),ol:not(.list-unstyled)  {
 }
 .flex {
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
   &-1-col {
     @extend .flex;
     & > * {
@@ -582,8 +596,8 @@ ul:not(.list-unstyled),ol:not(.list-unstyled)  {
     @extend .flex;
     & > * {
       @include large-desktop {
-        flex: 0 0 calc(50% - 80px);
-        max-width: calc(50% - 80px);
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
       }
     }
   }
@@ -591,8 +605,8 @@ ul:not(.list-unstyled),ol:not(.list-unstyled)  {
     @extend .flex;
     & > * {
       @include large-desktop {
-        flex: 0 0 calc((100% - 80px) / 3);
-        max-width: calc((100% - 80px) / 3);
+        flex: 0 0 calc((100% - 60px) / 3);
+        max-width: calc((100% - 60px) / 3);
       }
     }
   }
@@ -667,7 +681,7 @@ body {
 p:not(.ff-dm-serif),
 li,
 em {
-  line-height: 150%;
+  line-height: 180%;
 }
 
 .noise-bg {
@@ -678,8 +692,25 @@ em {
   filter: drop-shadow(0px 4px 60px #0a3364);
 }
 .dark-box-shadow__small {
-  filter: drop-shadow(0px 4px 30px #0a3364);
+  filter: drop-shadow(0px 4px 10px #0a326444);
 }
 .light-box-shadow {
   filter: drop-shadow(0px 4px 60px #dadcdd);
+}
+
+.callout {
+  background: var(--almost-white);
+      border: solid 1.5px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  font-weight: 400;
+
+  // color: var(--light-blue);
+
+    &-white {
+      @extend .callout;
+      background: var(--almost-white);
+      border: solid 1.5px;
+
+    }
 }
