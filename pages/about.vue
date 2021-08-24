@@ -37,14 +37,14 @@
                 class="mr-10"
               /><span>Find me on linkedIn</span>
             </a>
-            <div class="mx-10 fs-14">• </div>
+            <!-- <div class="mx-10 fs-14">• </div>
 
             <a
               class="fs-14"
               href="https://res.cloudinary.com/drsp4xifi/image/upload/v1626838920/Chiamaka_s_Resume_new_2_aukeqd.pdf"
               target="_blank"
               >My Resume</a
-            >
+            > -->
           </div>
         </div>
       </section>
